@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    margin: 2rem;
+    padding: 2rem 0;   
+}
+
+.navBar li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+body{
+    background-color: #00329e;
+}
+
+header{
+    background-color: #ffd900;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #00329e;
+}
+
+div{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #ffd900;
+    border-radius: .5em;
+}
+
+div h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+article{
+    background-color: #00329e;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+img{
+    width: 240px;
+}
+
+h3{
+    margin: 2rem;
+}
+
+.titulos-datos{
+    margin-bottom: 1rem;
+}
+
+.datos-idolos p{
+    margin: 2rem;
+}
+
+.contenedor-titulos-internacionales, .contenedor-historia, .contenedor-cancha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p, .internacionales{
+    text-align: center;
+}
+
+.contenedor-historia, .contenedor-cancha p{
+    margin-bottom: 1rem;
+}
+
